@@ -1,0 +1,38 @@
+{
+  "name": "adola",
+  "version": "0.1.0",
+  "description": "Node.js SDK for the Adola compression API",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "bun run build && node --test test/*.test.mjs",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "keywords": [
+    "adola",
+    "compression",
+    "tokens",
+    "sdk"
+  ],
+  "homepage": "https://adola.app",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
