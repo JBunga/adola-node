@@ -1,0 +1,15 @@
+{
+  "model": "rose-1",
+  "input": "Adola removes redundant prompt tokens while preserving the meaning that matters.",
+  "query": "What does Adola preserve?",
+  "compression": {
+    "target_ratio": 0.4,
+    "preserve_order": true
+  },
+  "protected": {
+    "xml_tags": ["rose_safe", "ttc_safe"],
+    "patterns": []
+  },
+  "include_spans": true
+}
+

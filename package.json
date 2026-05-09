@@ -30,6 +30,13 @@
     "sdk"
   ],
   "homepage": "https://adola.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBunga/adola-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JBunga/adola-node/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.15.3",

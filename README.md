@@ -3,7 +3,7 @@
 Node.js SDK for the Adola compression API.
 
 ```bash
-npm install github:JBunga/adola-node
+npm install adola
 ```
 
 ```ts
@@ -22,4 +22,4 @@ console.log(result.receipt.tokens_saved);
 
 The client defaults to `https://api.adola.app`. Set `ADOLA_BASE_URL` for local testing.
 
-The repository contains only the SDK client and does not include the Adola application codebase.
+The package contains only the SDK client and does not include the Adola application codebase.

@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { Adola, AdolaAPIError } from "../dist/index.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const fixtures = path.resolve(__dirname, "../../fixtures");
+const fixtures = path.resolve(__dirname, "../fixtures");
 
 async function fixture(name) {
   return JSON.parse(await readFile(path.join(fixtures, name), "utf8"));

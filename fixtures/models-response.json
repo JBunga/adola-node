@@ -1,0 +1,9 @@
+[
+  {
+    "id": "rose-1",
+    "name": "Rose 1",
+    "mode": "context-compression",
+    "target": "production-llm-systems"
+  }
+]
+

@@ -1,0 +1,28 @@
+{
+  "model": "rose-1",
+  "output": "Adola removes redundant prompt tokens while preserving meaning.",
+  "receipt": {
+    "original_tokens": 14,
+    "output_tokens": 8,
+    "tokens_saved": 6,
+    "compression_ratio": 0.5714285714,
+    "selected_count": 1,
+    "total_spans": 1,
+    "protected_tokens": 0,
+    "latency_ms": 3.2,
+    "risk": {
+      "level": "low",
+      "flags": []
+    }
+  },
+  "selected_spans": [
+    {
+      "id": "span-1",
+      "index": 0,
+      "text": "Adola removes redundant prompt tokens while preserving meaning.",
+      "tokens": 8,
+      "protected": false
+    }
+  ]
+}
+
